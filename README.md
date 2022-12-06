@@ -19,12 +19,30 @@ Go reference is available at https://pkg.go.dev/github.com/jalapeno-api-gateway/
 ## Example
 Here is a list of code examples with short description of demonstrated JAGW-Go functionality:
 
-- []() - description
+- [request-all-nodes](examples/request_all_nodes.go) - request all lsnodes from the gateway
 
 All code examples can be found under [examples](examples) directory.
 
 ## Quick Start
 Below are short code samples showing a JAGW-Go client interacting with the Jalapeno API Gateway.
+
+```go
+// Define the endpoint request/subscription
+endpoint := jagw.JagwEndpoint{
+    EndpointAddress: "localhost",
+    EndpointPort: 9902,
+}
+// Get a connection
+connection, err := jagw.NewJagwConnection(endpoint)
+if err != nil {
+    panic(err)
+}
+defer connection.Close()
+
+// Create a new request client
+client := jagw.NewRequestServiceClient(requestConnection)
+```
+Complete example in [request_all_nodes.go](examples/request_all_nodes.go)
 
 ## How to contribute?
 
