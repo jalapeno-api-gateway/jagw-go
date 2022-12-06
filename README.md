@@ -40,7 +40,7 @@ if err != nil {
 defer connection.Close()
 
 // Create a new request client
-client := jagw.NewRequestServiceClient(requestConnection)
+client := jagw.NewRequestServiceClient(connection)
 ```
 Complete example in [request_all_nodes.go](examples/request_all_nodes.go)
 
