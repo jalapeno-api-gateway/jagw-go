@@ -3,7 +3,7 @@
 </p>
 <h1 align="center">JAGW-Go</h1>
 <p align="center">
-	<a href="https://github.com/jalapeno-api-gateway/jagw-go/releases/latest"><img src="https://img.shields.io/github/v/tag/jalapeno-api-gateway/jagw-go.svg?label=release&logo=github" alt="Latest"></a>
+	<a href="https://github.com/jalapeno-api-gateway/jagw-go/releases/latest"><img src="https://img.shields.io/github/v/tag/jalapeno-api-gateway/jagw-go.svg?label=release&logo=github&style=flat-square" alt="Latest"></a>
 	<a href="https://pkg.go.dev/github.com/jalapeno-api-gateway/jagw-go"><img src="https://pkg.go.dev/badge/github.com/jalapeno-api-gateway/jagw-go" alt="PkgGoDev"></a>
 </p>
 
