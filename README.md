@@ -15,6 +15,7 @@ The JAGW-Go repository contains a Go client library for interacting with the Jal
 
 ## Documentation
 Go reference is available at https://pkg.go.dev/github.com/jalapeno-api-gateway/jagw-go. More documentation can be found under https://jalapeno-api-gateway.github.io/jagw.
+The mock files are generated with https://github.com/uber-go/mock.
 
 ## Example
 Here is a list of code examples with short description of demonstrated JAGW-Go functionality:
