@@ -3,6 +3,7 @@ module github.com/jalapeno-api-gateway/jagw-go
 go 1.18
 
 require (
+	go.uber.org/mock v0.4.0
 	google.golang.org/grpc v1.64.0
 	google.golang.org/protobuf v1.34.2
 )
